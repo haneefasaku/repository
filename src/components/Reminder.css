@@ -1,0 +1,55 @@
+.container{
+    max-width: 600px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+}
+.input-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+input{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.add-btn{
+    background-color: rgb(31, 166, 114);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.reminder-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.delete-btn{
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.reminder-list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
